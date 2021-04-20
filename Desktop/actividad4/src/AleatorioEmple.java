@@ -34,6 +34,7 @@ public class AleatorioEmple {
 				pos = pos + 36;
 				System.out.println("valido1");
 				System.out.println("Valido 2");
+				System.out.println("Valido 3");
 
 				if (file.getFilePointer() == file.length())
 					break;
