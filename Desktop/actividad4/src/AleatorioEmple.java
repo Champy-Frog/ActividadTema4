@@ -32,6 +32,8 @@ public class AleatorioEmple {
 				salario = file.readDouble();
 				System.out.println("Empleado: " + nom + ", numero:" + num + ", dep: " + dep + ", salario: " + salario);
 				pos = pos + 36;
+				System.out.println("valido1");
+				System.out.println("Valido 2");
 
 				if (file.getFilePointer() == file.length())
 					break;
